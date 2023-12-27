@@ -1,0 +1,216 @@
+    /*.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }*/
+    body{
+        background-color: hsl(210, 46%, 95%);
+        font-family: Barlow Semi Condensed;
+        width: 1440px;
+        height: 1000px;
+    }
+
+    main{
+        width: 70%;
+        height: 60%;
+        position: relative;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%,-50%);
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 40px;
+    }
+
+    p{
+        margin: 0px;
+    }
+
+    img{
+        width: 40px;
+        border-radius: 100%;
+        position: relative;
+        top: -9px;
+        left: 35px;
+    }
+
+    article{
+        border-radius: 8px;
+    }
+
+
+    .a1{
+        background-color: hsl(263, 55%, 52%);
+        height: 330px;
+        width: 65%;
+    }
+
+
+
+    .a1 p:first-child{
+        color: rgba(255,255,255,1);
+        width: 140px;
+        margin-left: 95px;
+        position: relative;
+        top: 30px;
+    }
+
+    span{
+        color:rgba(255,255,255,0.5);
+    }
+
+    .principale{
+        color: rgba(255, 255, 255, 1.0);
+        font-size: 25px;
+        position: relative;
+        top: 5px;
+        left: 35px;
+        width: 592px;
+    }
+
+    .principale + p{
+        color: rgba(255,255,255,0.7);
+        width: 580px;
+        position: relative;
+        left: 35px;
+        top: 30px;
+    }
+
+    .a2{
+        background-color: hsl(217, 19%, 35%);
+        height: 330px;
+        width: 30%;
+    }
+
+    .a2 p:first-child{
+        color: rgba(255,255,255,1);
+        width: 140px;
+        margin-left: 95px;
+        position: relative;
+        top: 30px;
+    }
+
+    .principale2{
+        color: rgba(255, 255, 255, 1.0);
+        font-size: 25px;
+        position: relative;
+        top: 5px;
+        left: 35px;
+        width: 231px;
+    }
+
+    .principale2 + p{
+        width: 240px;
+        color: rgba(255,255,255,0.7);
+        position: relative;
+        left: 35px;
+        top: 25px;
+    }
+
+    .a3{
+        background-color: hsl(0, 0%, 100%);
+        height: 330px;
+        width: 30%;
+    }
+
+    .a3 p:first-child{
+        width: 140px;
+        margin-left: 95px;
+        position: relative;
+        top: 30px;
+        color:rgba(0,0,0,0.8);
+    }
+
+    .a3 p:first-child span{
+        color:rgba(0,0,0,0.5);
+    }
+
+    .principale3{
+        position: relative;
+        left: 35px;
+        top: 5px;
+        font-size: 25px;
+        color: rgba(0,0,0,0.8);
+        width: 240px;
+    }
+
+    .principale3 + p{
+        color: rgba(0,0,0,0.7);
+        position: relative;
+        left: 35px;
+        top: 25px;
+        width: 240px;
+    }
+
+    .a4{
+        background-color:hsl(219, 29%, 14%);
+        height: 330px;
+        width: 65%;
+    }
+
+    .a4 p:first-child{
+        width: 140px;
+        margin-left: 95px;
+        position: relative;
+        top: 30px;
+        color: rgba(255,255,255,1);
+    }
+
+    .principale4{
+        font-size: 25px;
+        position: relative;
+        top: 5px;
+        left: 35px;
+        color: rgba(255,255,255,1);
+        width: 600px;
+    }
+
+    .principale4 + p{
+        color: rgba(255,255,255,0.7);
+        width: 580px;
+        position: relative;
+        left: 35px;
+        top: 30px;
+    }
+
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .a5{
+            background-color: hsl(0, 0%, 100%);
+            width: 300px;
+            height: 700px;
+            position: absolute;
+            top: 0%;
+            left: 105%;
+    }
+
+    .a5 p:first-child{
+        width: 125px;
+        margin-left: 95px;
+        position: relative;
+        top: 30px;
+        color: rgba(0,0,0,0.8);
+    }
+
+    .a5 p:first-child span{
+        color: rgba(0,0,0,0.5);
+    }
+
+    .principale5{
+        position: relative;
+        left: 35px;
+        top: 5px;
+        font-size: 25px;
+        color: rgba(0,0,0,0.8);
+        width: 240px;
+    }
+
+    .principale5 + p{
+        color: rgba(0,0,0,0.7);
+        position: relative;
+        left: 35px;
+        top: 45px;
+        width: 240px;
+    }
